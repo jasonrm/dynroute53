@@ -1,0 +1,24 @@
+{
+  "name": "dyndns53",
+  "version": "1.0.0",
+  "description": "DynDNS compatible proxy to Route 53",
+  "keywords": [
+    "route53",
+    "dyndns",
+    "dns",
+    "AWS"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "basic-auth": "0.0.1",
+    "coffee-script": "^1.7.1",
+    "express": "^4.3.0",
+    "morgan": "^1.1.1",
+    "nice-route53": "^0.3.4"
+  },
+  "bin": {
+    "dyndns53": "./bin/server"
+  }
+}
